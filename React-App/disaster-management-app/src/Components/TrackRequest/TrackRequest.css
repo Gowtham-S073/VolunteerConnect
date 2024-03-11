@@ -1,0 +1,92 @@
+/* Updated style for the form */
+.RequestContent {
+    align-items: center;
+    justify-content: center;
+    height: 100dvh; /* Make sure the content takes full height of the viewport */
+    width: 100%;
+  }
+
+  .Title_TrackRequest{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    max-height: 600px;
+    width: 100%;
+    margin: 20px auto; /* Center the form */
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .trackButton{
+    background-color: #0b607a !important;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+ 
+  /* Style for the confirmation popup */
+  .confirmation-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+  
+  .confirmation-popup p {
+    margin-bottom: 16px;
+  }
+  
+  .confirmation-popup button {
+    margin-right: 8px;
+    padding: 10px;
+  }
+  
+  /* Style for the backend data table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #3F51B5;
+    color: white !important;
+  }
+  

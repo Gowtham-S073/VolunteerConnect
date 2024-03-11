@@ -1,0 +1,50 @@
+/* General dashboard layout */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure full viewport height */
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 250px; /* Adjust as needed */
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto; /* Enable scrolling for content */
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+  
+  .sidebar a:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Content area styles */
+  .content-area {
+    margin-left: 250px; /* Match sidebar width */
+    padding: 20px;
+  }
+
+  .dashboardContent{
+    padding-top: 20px;
+  }
+  
+   
